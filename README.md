@@ -6,15 +6,6 @@ Welcome to the repository dedicated to decoding intriguing flexy software algori
 
 This repository aims to break down complex software algorithms into digestible content, covering the essential aspects in an interesting and informative way. The framework for our exploration includes:
 
-### Framework
-
-- **Prerequisites and Terminologies**
-- **1. Problem Statement**
-- **2. Solution Overview**
-- **3. Architecture Overview**
-- **4. Case Studies**
-- **5. Code Snippets**
-- **6. Alternatives**
 
 ## Structure of Content
 
