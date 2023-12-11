@@ -34,22 +34,6 @@ A technique in distributed computing ensuring data consistency across multiple n
 ### Financial Systems and Transactions:
 - Essential for maintaining data integrity in critical financial operations.
 
-## Alternatives to Hinted Handoff
-
-### Quorum Systems:
-- Achieve consistency using agreement protocols among subsets of nodes.
-
-### Conflict-free Replicated Data Types (CRDTs):
-- Enable conflict-free concurrent updates across distributed nodes.
-
-### Last-Writer-Wins (LWW) Conflict Resolution:
-- Simplifies conflict resolution based on timestamps, though may not guarantee consistency in all scenarios.
-
-## Companies using Hinted Handoff
-
-- [Amazon DynamoDB](https://www.allthingsdistributed.com/2007/10/amazons_dynamo.html)
-- [Apache Cassandra](https://cassandra.apache.org/doc/stable/cassandra/operating/hints.html)
-
 ## Sample Code Snippet 
 
 ```python
@@ -87,4 +71,22 @@ if hinted_data:
 ```
 
 #### For more detailed look of the code you can have a look at https://github.com/PaytmLabs/cassandra/blob/master/src/java/org/apache/cassandra/db/HintedHandOffManager.java
+
+## Companies using Hinted Handoff
+
+- [Amazon DynamoDB](https://www.allthingsdistributed.com/2007/10/amazons_dynamo.html)
+- [Apache Cassandra](https://cassandra.apache.org/doc/stable/cassandra/operating/hints.html)
+
+## Alternatives to Hinted Handoff
+
+### Quorum Systems:
+- Achieve consistency using agreement protocols among subsets of nodes.
+
+### Conflict-free Replicated Data Types (CRDTs):
+- Enable conflict-free concurrent updates across distributed nodes.
+
+### Last-Writer-Wins (LWW) Conflict Resolution:
+- Simplifies conflict resolution based on timestamps, though may not guarantee consistency in all scenarios.
+
+
 
